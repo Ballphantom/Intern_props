@@ -1,38 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-family: 'Pacifico', cursive;
+}
+.search-form,.Card{
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-form{
+  border-radius: 1rem !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.Title{
+  font-family: 'Pacifico', cursive;
+  font-size: 42px !important;
+}
+
+.Carousel{
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 3rem !important;
+  color: #fff !important;
+}
+img{
+  border-radius: 3rem !important;
+}
+
+.main{
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
+  padding: 90px 0 90px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.sub-main{
+  display: flex;
+  justify-content: center;
+  height: 550px;
+  width: 35%;
+  box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+  border-radius: 60px;
+  background-color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imgs{
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.container-image{
+  background-color: rgb(221, 221, 221);
+  border-radius: 150px;
+  align-items: center;
+  display: flex;
+  height: 115px;
+  width: 115px;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.profile{
+  height: 100px;
+  width: 100px;
+  border-radius: 130px;
+}
+
+input{
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px 0px rgba(178, 178, 178, 0.533);
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.email, .password{
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  padding:  14px 0 0 25px;
+}
+
+.name{
+  padding-left: 70px;
+  font-size: 20px;
+}
+
+.second-input{
+  padding-top: 20px;
+}
+
+.btn-login{
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 50px !important;
+  background-color: #b13ee2;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 20px !important;
+  box-shadow: 5px 4px 5px 3px rgb(207, 207, 207);
+  transition: transform 500ms ease;
+}
+
+.btn-login:hover{
+  transform: scale(1.02);
+}
+
+.first-meet{
+  font-family: 'Lobster', cursive;
+  font-size: 36px;
+}
+
+.stocks-item{
+  border-radius: 50px !important;
+  box-shadow: 0px 0px 25px 0px rgba(198, 198, 198, 0.533);
+  transition: transform 500ms ease;
+}
+
+.stocks-item:hover{
+  transform: scale(1.02);
+}
+
+.Stocks{
+  margin-top: 5rem !important;
+  align-items: center !important;
+  margin-left: 5rem;
 }

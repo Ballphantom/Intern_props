@@ -12,7 +12,7 @@ function Navb() {
         <div>
             <Navbar>
                 <Container>
-                <Navbar.Brand className='Title' href="/Home">Intern</Navbar.Brand>
+                <Navbar.Brand className='Title' href="/Home">MyPetS</Navbar.Brand>
                 <Nav>
                     <Nav.Link onClick={()=>{
                         warp('/Home', {replace: true})

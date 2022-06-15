@@ -11,7 +11,7 @@ function Item() {
     ]
     return (
         <div>
-            <Row md={4}>
+            <Row md={5} xs={1}>
                 {
                     // eslint-disable-next-line array-callback-return
                     data_item.map((item,i)=>{

@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Market() {
     return (
-        <div className="App">
+        <div className="pages">
             <Item/>             
 
         </div> 

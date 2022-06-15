@@ -8,7 +8,7 @@ function Login() {
 
 
     return (
-        <div className='main'>
+        <div className='main pages'>
             <div className='sub-main'>
                 <div>
                     <div className='imgs'>

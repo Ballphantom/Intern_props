@@ -4,6 +4,7 @@ import Navb from './components/Navb'
 import Home from './pages/Home'
 import Login from './pages/Login'
 import Market from './pages/Market'
+import Detail from './pages/Detail';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path='/' element={<Login/>}></Route>
             <Route path='/Home' element={<Home/>}></Route>
             <Route path='/Market' element={<Market/>}></Route>
+            <Route path='/Detail' element={<Detail/>}></Route>
           </Routes>
         </Router>
     </div>

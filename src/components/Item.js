@@ -7,6 +7,7 @@ function Item() {
     const data_item = [
         { name : "Condo", price: "200" },
         { name : "Big Condo", price: "300" },
+        { name : "Base Condo", price: "100" },
         { name : "Small Condo", price: "200" }
     ]
     return (

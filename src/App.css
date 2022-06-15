@@ -8,11 +8,19 @@
   justify-content: center;
 }
 
+.pages{
+  min-height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+
 .App {
   text-align: center;
-  background: rgb(2,0,36);
-  background: linear-gradient(130deg, rgba(2,0,36,1) 0%, rgba(247,209,209,1) 46%, rgba(0,212,255,1) 100%);
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(193,181,218,1) 65%, rgba(148,187,233,1) 100%);
+  background-size: cover;
 }
+
 h1{
   font-family: 'Pacifico', cursive;
 }
@@ -128,7 +136,7 @@ input{
 }
 
 .stocks-item{
-  border-radius: 50px !important;
+  border-radius: 30px !important;
   box-shadow: 0px 0px 25px 0px rgba(198, 198, 198, 0.533);
   transition: transform 500ms ease;
 }
@@ -139,4 +147,30 @@ input{
 
 .Stocks{
   margin-top: 5rem !important;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.Detail-container{
+  width: 1200px;
+  height: 600px;
+  background-color: #FFF;
+  margin: auto;
+  padding: 50px;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+
+.Detail-img{
+  height: 500px;
+  width: 500px;
+  border: 1px solid #312d31;
+}
+
+.text-detail{
+  margin-left: 2rem;
+  margin-bottom: 2rem;
 }

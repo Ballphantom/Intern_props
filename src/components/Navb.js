@@ -19,7 +19,7 @@ function Navb() {
                     }}>Home</Nav.Link>
                     <Nav.Link onClick={()=>{
                         warp('/Market', {replace: true})
-                    }}>Market</Nav.Link>
+                    }}>Market</Nav.Link>               
                 </Nav>
                 </Container>
             </Navbar>

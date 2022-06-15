@@ -12,18 +12,20 @@ const Stocks =(props)=> {
         } )} */}
 
             <div>
+                <a href="/Detail">
                     <Col key={props.i}>
                         <Card className="stocks-item" style={{ width: '18rem' ,height:'28rem'}}>
                             <Card.Img variant="top" style={{marginTop:'2rem'}} src="https://lzd-img-global.slatic.net/live/th/p/oem-cat-condo-dogga-lite-brown-7324-9350101-1.jpg_720x720q80.jpg_.webp" />
                             <Card.Body>
                                 <Card.Title>{props.name}</Card.Title>
                                 <Card.Text>
-
                                 </Card.Text>
                                 <Button variant="primary">{props.price}$</Button>
                             </Card.Body>
                         </Card>                    
-                    </Col>
+                    </Col>                    
+                </a>
+
             </div>
         </div>
     )

@@ -5,14 +5,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Item() {
     const data_item = [
-        { name : "Condo", price: "200" },
-        { name : "Big Condo", price: "300" },
-        { name : "Base Condo", price: "100" },
-        { name : "Small Condo", price: "200" }
+        { name : "Condo", price: "200" }
     ]
+    
     return (
         <div>
-            <Row md={5} xs={1}>
+            <Row md={6} xs={1}>
                 {
                     // eslint-disable-next-line array-callback-return
                     data_item.map((item,i)=>{

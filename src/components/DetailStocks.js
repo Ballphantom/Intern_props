@@ -20,7 +20,7 @@ const DetailStocks =(props)=> {
                 </div>
          */}
             <Container>
-                <Row>
+                <Row md={2} xs={1}>
                     <Col>
                         <Card style={{ width: '30rem' }}>
                             <Card.Img src="https://lzd-img-global.slatic.net/live/th/p/oem-cat-condo-dogga-lite-brown-7324-9350101-1.jpg_720x720q80.jpg_.webp" />

@@ -2,8 +2,6 @@ import React from 'react'
 import { Navbar, Container, Nav} from 'react-bootstrap'
 import {useNavigate} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {  } from '@fortawesome/react-fontawesome'
-import {  } from '@fortawesome/free-solid-svg-icons'
 
 function Navb() {
     let warp = useNavigate()
@@ -13,6 +11,7 @@ function Navb() {
             <Navbar>
                 <Container>
                 <Navbar.Brand className='Title' href="/Home">MyPetS</Navbar.Brand>
+                <input type='text' placeholder='Search...'></input>
                 <Nav>
                     <Nav.Link onClick={()=>{
                         warp('/Home', {replace: true})

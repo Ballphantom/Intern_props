@@ -51,8 +51,8 @@ const DetailStocks =(props)=> {
                                         icon: 'success',
                                         button: 'Continue'
                                     })
-                                }} >ADD TO CART</Button><span> | </span>
-                                <Button onClick={()=>{
+                                }} >ADD CART</Button><span> | </span>
+                                <Button variant="warning" onClick={()=>{
                                     Swal.fire({
                                         title: 'Payment',
                                         text: 'Paypal : 0912381312',
